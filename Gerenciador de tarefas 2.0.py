@@ -3,6 +3,8 @@ from tkinter import messagebox
 import tkinter as tk
 from tkinter import ttk
 
+# Gerenciador de Tarefas 2.0
+# Este é um gerenciador de tarefas simples que permite adicionar, editar, remover e marcar tarefas como concluídas.
 class Gerenciador_Tarefas:
     def __init__(self,janela):
         self.janela=janela
